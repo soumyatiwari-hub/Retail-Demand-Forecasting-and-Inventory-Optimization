@@ -1,4 +1,19 @@
-# Project Planning and Requirement Analysis
+## Retail Demand Forecasting & Inventory Optimization
+
+## Project Overview
+
+This project predicts future product demand using Walmart's M5 Forecasting dataset. It includes data preprocessing, feature engineering, forecasting models (Prophet and LightGBM), and an interactive Tableau dashboard for inventory optimization.
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Prophet
+- LightGBM
+- Git & GitHub
+- Tableau
 
 ## Project Selected
 Retail Demand Forecasting and Inventory Optimization
