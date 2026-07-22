@@ -58,3 +58,20 @@ The detailed task allocation and development workflow will be finalized during t
 - Set up the development environment
 - Download and inspect the M5 Forecasting dataset
 - Begin Week 1 data architecture and ETL tasks
+## Week 2 Progress
+
+✔ Feature Engineering
+
+✔ Prophet Forecasting
+
+✔ Model Evaluation
+
+✔ LightGBM Forecasting
+
+✔ Model Comparison
+
+## Results
+
+- Forecasting model developed successfully
+- Demand prediction completed
+- Model performance evaluated
