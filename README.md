@@ -174,3 +174,27 @@ Through this project, I gained practical experience in:
 - Model Evaluation
 - Data Visualization
 - Version Control using Git & GitHub
+
+## 📊 Interactive Tableau Dashboard
+
+This project includes two Tableau dashboards:
+
+### Dashboard 1 – Retail Demand Forecasting
+- Daily Sales Trend
+- Store-wise Sales
+- Category-wise Sales
+
+### Dashboard 2 – Business Insights
+- Monthly Sales Trend
+- Average Selling Price
+- Top 10 Products
+
+### Dashboard Preview
+
+![Dashboard 1](screenshots/dashboard1.png)
+
+![Dashboard 2](screenshots/dashboard2.png)
+
+### Tableau Public
+
+🔗 [View Interactive Dashboard](https://public.tableau.com/app/profile/soumya.tiwari7361/viz/Retail_Demand_Dashboard2/BusinessInsightsDashboard#2)

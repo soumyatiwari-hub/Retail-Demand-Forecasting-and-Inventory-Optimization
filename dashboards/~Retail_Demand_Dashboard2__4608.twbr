@@ -1,0 +1,1693 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0708.1337                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='ceb311ac86c3f5fac07ed6edc6828b218adb977cd0c92fbfa0c19438b8e91922' _.fcp.WorkbookFingerprinting.true...creator-author-id='ceb311ac86c3f5fac07ed6edc6828b218adb977cd0c92fbfa0c19438b8e91922' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='ceb311ac86c3f5fac07ed6edc6828b218adb977cd0c92fbfa0c19438b8e91922' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='ceb311ac86c3f5fac07ed6edc6828b218adb977cd0c92fbfa0c19438b8e91922' original-version='18.1' source-build='2026.2.1 (20262.26.0708.1337)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='master_dataset' inline='true' name='federated.171f5lh003wvqd1c72rn40god19i' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='master_dataset' name='textscan.1lda07s0xaqha81ce2wcs1d38n0v'>
+            <connection class='textscan' directory='C:/Users/ragha/Downloads/Retail-Demand-Forecasting/data/processed' filename='master_dataset.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1lda07s0xaqha81ce2wcs1d38n0v' name='master_dataset.csv' table='[master_dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='id' ordinal='0' />
+            <column datatype='string' name='item_id' ordinal='1' />
+            <column datatype='string' name='dept_id' ordinal='2' />
+            <column datatype='string' name='cat_id' ordinal='3' />
+            <column datatype='string' name='store_id' ordinal='4' />
+            <column datatype='string' name='state_id' ordinal='5' />
+            <column datatype='string' name='d' ordinal='6' />
+            <column datatype='integer' name='sales' ordinal='7' />
+            <column datatype='date' name='date' ordinal='8' />
+            <column datatype='integer' name='wm_yr_wk' ordinal='9' />
+            <column datatype='string' name='weekday' ordinal='10' />
+            <column datatype='integer' name='wday' ordinal='11' />
+            <column datatype='integer' name='month' ordinal='12' />
+            <column datatype='integer' name='year' ordinal='13' />
+            <column datatype='string' name='event_name_1' ordinal='14' />
+            <column datatype='string' name='event_type_1' ordinal='15' />
+            <column datatype='string' name='event_name_2' ordinal='16' />
+            <column datatype='string' name='event_type_2' ordinal='17' />
+            <column datatype='integer' name='snap_CA' ordinal='18' />
+            <column datatype='integer' name='snap_TX' ordinal='19' />
+            <column datatype='integer' name='snap_WI' ordinal='20' />
+            <column datatype='integer' name='day' ordinal='21' />
+            <column datatype='real' name='sell_price' ordinal='22' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>item_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[item_id]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>item_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dept_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dept_id]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>dept_id</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cat_id]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>cat_id</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>store_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[store_id]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>store_id</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[state_id]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>state_id</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>d</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[d]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>d</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sales</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sales]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>sales</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wm_yr_wk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wm_yr_wk]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>wm_yr_wk</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weekday</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[weekday]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>weekday</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wday</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wday]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>wday</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>event_name_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[event_name_1]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>event_name_1</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>event_type_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[event_type_1]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>event_type_1</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>event_name_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[event_name_2]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>event_name_2</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>event_type_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[event_type_2]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>event_type_2</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>snap_CA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[snap_CA]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>snap_CA</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>snap_TX</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[snap_TX]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>snap_TX</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>snap_WI</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[snap_WI]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>snap_WI</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>day</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sell_price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sell_price]</local-name>
+            <parent-name>[master_dataset.csv]</parent-name>
+            <remote-alias>sell_price</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='master_dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]' role='measure' type='quantitative' />
+      <column caption='Cat Id' datatype='string' name='[cat_id]' role='dimension' type='nominal' />
+      <column caption='D' datatype='string' name='[d]' role='dimension' type='nominal' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Day' datatype='integer' name='[day]' role='dimension' type='quantitative' />
+      <column caption='Dept Id' datatype='string' name='[dept_id]' role='dimension' type='nominal' />
+      <column caption='Event Name 1' datatype='string' name='[event_name_1]' role='dimension' type='nominal' />
+      <column caption='Event Name 2' datatype='string' name='[event_name_2]' role='dimension' type='nominal' />
+      <column caption='Event Type 1' datatype='string' name='[event_type_1]' role='dimension' type='nominal' />
+      <column caption='Event Type 2' datatype='string' name='[event_type_2]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='string' name='[id]' role='dimension' type='nominal' />
+      <column caption='Item Id' datatype='string' name='[item_id]' role='dimension' type='nominal' />
+      <column caption='Month' datatype='integer' name='[month]' role='dimension' type='quantitative' />
+      <column caption='Sales' datatype='integer' name='[sales]' role='measure' type='quantitative' />
+      <column caption='Sell Price' datatype='real' name='[sell_price]' role='measure' type='quantitative' />
+      <column caption='snap CA' datatype='integer' name='[snap_CA]' role='measure' type='quantitative' />
+      <column caption='snap TX' datatype='integer' name='[snap_TX]' role='measure' type='quantitative' />
+      <column caption='snap WI' datatype='integer' name='[snap_WI]' role='measure' type='quantitative' />
+      <column caption='State Id' datatype='string' name='[state_id]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Store Id' datatype='string' name='[store_id]' role='dimension' type='nominal' />
+      <column caption='Wday' datatype='integer' name='[wday]' role='measure' type='quantitative' />
+      <column caption='Weekday' datatype='string' name='[weekday]' role='dimension' type='nominal' />
+      <column caption='Wm Yr Wk' datatype='integer' name='[wm_yr_wk]' role='dimension' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[sell_price]' derivation='Avg' name='[avg:sell_price:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[date]' derivation='Count' name='[cnt:date:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[sell_price]' derivation='Sum' name='[sum:sell_price:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Cat Id)' hidden='true' name='[Action (Cat Id)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[cat_id]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Item Id)' hidden='true' name='[Action (Item Id)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[item_id]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (State Id)' hidden='true' name='[Action (State Id)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[state_id]' />
+        </groupfilter>
+      </group>
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_073delk1cxcbfm1b3ptst0kjqzwd.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/24/2026 02:56:27 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>512</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>item_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[item_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>item_id</remote-alias>
+              <ordinal>1</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>512</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dept_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[dept_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dept_id</remote-alias>
+              <ordinal>2</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cat_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[cat_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cat_id</remote-alias>
+              <ordinal>3</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>store_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[store_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>store_id</remote-alias>
+              <ordinal>4</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>state_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[state_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>state_id</remote-alias>
+              <ordinal>5</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>d</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[d]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>d</remote-alias>
+              <ordinal>6</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6430</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sales</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sales</remote-alias>
+              <ordinal>7</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>142</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>date</remote-alias>
+              <ordinal>8</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>6430</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>wm_yr_wk</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[wm_yr_wk]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>wm_yr_wk</remote-alias>
+              <ordinal>9</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>274</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>weekday</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[weekday]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>weekday</remote-alias>
+              <ordinal>10</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>wday</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[wday]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>wday</remote-alias>
+              <ordinal>11</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>month</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[month]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>month</remote-alias>
+              <ordinal>12</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>13</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>event_name_1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[event_name_1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>event_name_1</remote-alias>
+              <ordinal>14</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>event_type_1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[event_type_1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>event_type_1</remote-alias>
+              <ordinal>15</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>event_name_2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[event_name_2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>event_name_2</remote-alias>
+              <ordinal>16</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>event_type_2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[event_type_2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>event_type_2</remote-alias>
+              <ordinal>17</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>snap_CA</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[snap_CA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>snap_CA</remote-alias>
+              <ordinal>18</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>snap_TX</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[snap_TX]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>snap_TX</remote-alias>
+              <ordinal>19</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>snap_WI</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[snap_WI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>snap_WI</remote-alias>
+              <ordinal>20</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>day</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[day]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>day</remote-alias>
+              <ordinal>21</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sell_price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[sell_price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sell_price</remote-alias>
+              <ordinal>22</ordinal>
+              <family>master_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>773</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.171f5lh003wvqd1c72rn40god19i].[cnt:date:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.171f5lh003wvqd1c72rn40god19i].[avg:sell_price:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.171f5lh003wvqd1c72rn40god19i].[sum:sell_price:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='master_dataset.csv' id='master_dataset.csv_C53B3B8E9FC64CA1BA966471689D4D40'>
+            <properties context=''>
+              <relation connection='textscan.1lda07s0xaqha81ce2wcs1d38n0v' name='master_dataset.csv' table='[master_dataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='id' ordinal='0' />
+                  <column datatype='string' name='item_id' ordinal='1' />
+                  <column datatype='string' name='dept_id' ordinal='2' />
+                  <column datatype='string' name='cat_id' ordinal='3' />
+                  <column datatype='string' name='store_id' ordinal='4' />
+                  <column datatype='string' name='state_id' ordinal='5' />
+                  <column datatype='string' name='d' ordinal='6' />
+                  <column datatype='integer' name='sales' ordinal='7' />
+                  <column datatype='date' name='date' ordinal='8' />
+                  <column datatype='integer' name='wm_yr_wk' ordinal='9' />
+                  <column datatype='string' name='weekday' ordinal='10' />
+                  <column datatype='integer' name='wday' ordinal='11' />
+                  <column datatype='integer' name='month' ordinal='12' />
+                  <column datatype='integer' name='year' ordinal='13' />
+                  <column datatype='string' name='event_name_1' ordinal='14' />
+                  <column datatype='string' name='event_type_1' ordinal='15' />
+                  <column datatype='string' name='event_name_2' ordinal='16' />
+                  <column datatype='string' name='event_type_2' ordinal='17' />
+                  <column datatype='integer' name='snap_CA' ordinal='18' />
+                  <column datatype='integer' name='snap_TX' ordinal='19' />
+                  <column datatype='integer' name='snap_WI' ordinal='20' />
+                  <column datatype='integer' name='day' ordinal='21' />
+                  <column datatype='real' name='sell_price' ordinal='22' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_3D517B4D4C574AF686B094CA6DF544DC]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Sheet 4' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Measure Names' />
+        <param name='target' value='Sheet 4' />
+      </command>
+    </action>
+    <action caption='Filter 1 (generated)' name='[Action2_BB7D32D33D554655891A9B1EC04CD712]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Retail Demand Forecasting Dashboard' type='sheet' worksheet='Sheet 2' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Retail Demand Forecasting Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action3_884DC6B401194141B342EDABC6666A15]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Retail Demand Forecasting Dashboard' type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Retail Demand Forecasting Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action4_2670FCCB93134FA6AF0223DF4F93ADB8]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Retail Demand Forecasting Dashboard' type='sheet' worksheet='Sheet 3' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Retail Demand Forecasting Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter1' name='[Action5_6FB44E72E23A4A4AB4B98F13AA723798]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='all' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Retail Demand Forecasting Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter2' name='[Action6_EFFB2267BADE4752B76A16064DC97CFC]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Retail Demand Forecasting Dashboard' type='sheet' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Retail Demand Forecasting Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter3' name='[Action7_45650CFD90734E0AB64C37D760B5D638]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Business Insights Dashboard' type='sheet' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Business Insights Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Daily Sales Trend</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='master_dataset' name='federated.171f5lh003wvqd1c72rn40god19i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.171f5lh003wvqd1c72rn40god19i'>
+            <column caption='Cat Id' datatype='string' name='[cat_id]' role='dimension' type='nominal' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column caption='Item Id' datatype='string' name='[item_id]' role='dimension' type='nominal' />
+            <column-instance column='[state_id]' derivation='None' name='[none:state_id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[store_id]' derivation='None' name='[none:store_id:nk]' pivot='key' type='nominal' />
+            <column caption='Sales' datatype='integer' name='[sales]' role='measure' type='quantitative' />
+            <column caption='State Id' datatype='string' name='[state_id]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Store Id' datatype='string' name='[store_id]' role='dimension' type='nominal' />
+            <column-instance column='[sales]' derivation='Sum' name='[sum:sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date]' derivation='Year' name='[yr:date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[Action (Cat Id)]'>
+            <groupfilter function='level-members' level='[cat_id]' user:ui-action-filter='[Action4_2670FCCB93134FA6AF0223DF4F93ADB8]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[Action (Item Id)]'>
+            <groupfilter function='member' level='[item_id]' member='&quot;HOBBIES_1_099&quot;' user:ui-action-filter='[Action5_6FB44E72E23A4A4AB4B98F13AA723798]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[none:state_id:nk]'>
+            <groupfilter function='level-members' level='[none:state_id:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[none:store_id:nk]'>
+            <groupfilter function='level-members' level='[none:store_id:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[none:state_id:nk]</column>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[none:store_id:nk]</column>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[Action (Cat Id)]</column>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[Action (Item Id)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.171f5lh003wvqd1c72rn40god19i].[sum:sales:qk]</rows>
+        <cols>[federated.171f5lh003wvqd1c72rn40god19i].[yr:date:ok]</cols>
+      </table>
+      <simple-id uuid='{E73A3A9D-B959-498E-A5C3-1C2A8F0D1159}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Store-wise Sales Performance</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='master_dataset' name='federated.171f5lh003wvqd1c72rn40god19i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.171f5lh003wvqd1c72rn40god19i'>
+            <column caption='Cat Id' datatype='string' name='[cat_id]' role='dimension' type='nominal' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column caption='Item Id' datatype='string' name='[item_id]' role='dimension' type='nominal' />
+            <column-instance column='[state_id]' derivation='None' name='[none:state_id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[store_id]' derivation='None' name='[none:store_id:nk]' pivot='key' type='nominal' />
+            <column caption='Sales' datatype='integer' name='[sales]' role='measure' type='quantitative' />
+            <column caption='State Id' datatype='string' name='[state_id]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Store Id' datatype='string' name='[store_id]' role='dimension' type='nominal' />
+            <column-instance column='[sales]' derivation='Sum' name='[sum:sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date]' derivation='Year' name='[yr:date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[Action (Cat Id)]'>
+            <groupfilter function='level-members' level='[cat_id]' user:ui-action-filter='[Action4_2670FCCB93134FA6AF0223DF4F93ADB8]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[Action (Item Id)]'>
+            <groupfilter function='member' level='[item_id]' member='&quot;HOBBIES_1_099&quot;' user:ui-action-filter='[Action5_6FB44E72E23A4A4AB4B98F13AA723798]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[none:state_id:nk]'>
+            <groupfilter function='level-members' level='[none:state_id:nk]' />
+          </filter>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[none:store_id:nk]'>
+            <groupfilter function='level-members' level='[none:store_id:nk]' />
+          </filter>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[yr:date:ok]'>
+            <groupfilter function='level-members' level='[yr:date:ok]' />
+          </filter>
+          <slices>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[none:store_id:nk]</column>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[none:state_id:nk]</column>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[yr:date:ok]</column>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[Action (Cat Id)]</column>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[Action (Item Id)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.171f5lh003wvqd1c72rn40god19i].[none:state_id:nk]</rows>
+        <cols>[federated.171f5lh003wvqd1c72rn40god19i].[sum:sales:qk]</cols>
+      </table>
+      <simple-id uuid='{FE3FFF20-CD26-489D-89C4-1A37EF90CEC6}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Category-wise Sales</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='master_dataset' name='federated.171f5lh003wvqd1c72rn40god19i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.171f5lh003wvqd1c72rn40god19i'>
+            <column caption='Cat Id' datatype='string' name='[cat_id]' role='dimension' type='nominal' />
+            <column caption='Item Id' datatype='string' name='[item_id]' role='dimension' type='nominal' />
+            <column-instance column='[cat_id]' derivation='None' name='[none:cat_id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state_id]' derivation='None' name='[none:state_id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[store_id]' derivation='None' name='[none:store_id:nk]' pivot='key' type='nominal' />
+            <column caption='Sales' datatype='integer' name='[sales]' role='measure' type='quantitative' />
+            <column caption='State Id' datatype='string' name='[state_id]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Store Id' datatype='string' name='[store_id]' role='dimension' type='nominal' />
+            <column-instance column='[sales]' derivation='Sum' name='[sum:sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[Action (Item Id)]'>
+            <groupfilter function='member' level='[item_id]' member='&quot;HOBBIES_1_099&quot;' user:ui-action-filter='[Action5_6FB44E72E23A4A4AB4B98F13AA723798]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[none:state_id:nk]'>
+            <groupfilter function='level-members' level='[none:state_id:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[none:store_id:nk]'>
+            <groupfilter function='level-members' level='[none:store_id:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[none:state_id:nk]</column>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[none:store_id:nk]</column>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[Action (Item Id)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.171f5lh003wvqd1c72rn40god19i].[none:cat_id:nk]</rows>
+        <cols>[federated.171f5lh003wvqd1c72rn40god19i].[sum:sales:qk]</cols>
+      </table>
+      <simple-id uuid='{F298C44A-30B7-4D72-AFFD-233BA21AED8B}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Monthly Sales Trend</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='master_dataset' name='federated.171f5lh003wvqd1c72rn40god19i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.171f5lh003wvqd1c72rn40god19i'>
+            <column-instance column='[date]' derivation='Count' name='[cnt:date:qk]' pivot='key' type='quantitative' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column caption='Item Id' datatype='string' name='[item_id]' role='dimension' type='nominal' />
+            <column-instance column='[date]' derivation='Month' name='[mn:date:qk]' pivot='key' type='quantitative' />
+            <column caption='Sell Price' datatype='real' name='[sell_price]' role='measure' type='quantitative' />
+            <column-instance column='[sell_price]' derivation='Sum' name='[sum:sell_price:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[Action (Item Id)]'>
+            <groupfilter function='member' level='[item_id]' member='&quot;HOBBIES_1_099&quot;' user:ui-action-filter='[Action7_45650CFD90734E0AB64C37D760B5D638]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[Action (Item Id)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.171f5lh003wvqd1c72rn40god19i].[cnt:date:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.171f5lh003wvqd1c72rn40god19i].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.171f5lh003wvqd1c72rn40god19i].[sum:sell_price:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.171f5lh003wvqd1c72rn40god19i].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.171f5lh003wvqd1c72rn40god19i].[cnt:date:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.171f5lh003wvqd1c72rn40god19i].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.171f5lh003wvqd1c72rn40god19i].[sum:sell_price:qk] + [federated.171f5lh003wvqd1c72rn40god19i].[cnt:date:qk])</rows>
+        <cols>[federated.171f5lh003wvqd1c72rn40god19i].[mn:date:qk]</cols>
+      </table>
+      <simple-id uuid='{E606B847-A6C8-40FC-97D8-909BFECDAA60}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Selling Price</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='master_dataset' name='federated.171f5lh003wvqd1c72rn40god19i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.171f5lh003wvqd1c72rn40god19i'>
+            <column-instance column='[sell_price]' derivation='Avg' name='[avg:sell_price:qk]' pivot='key' type='quantitative' />
+            <column caption='Cat Id' datatype='string' name='[cat_id]' role='dimension' type='nominal' />
+            <column caption='Item Id' datatype='string' name='[item_id]' role='dimension' type='nominal' />
+            <column-instance column='[cat_id]' derivation='None' name='[none:cat_id:nk]' pivot='key' type='nominal' />
+            <column caption='Sell Price' datatype='real' name='[sell_price]' role='measure' type='quantitative' />
+            <column-instance column='[sell_price]' derivation='Sum' name='[sum:sell_price:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[Action (Item Id)]'>
+            <groupfilter function='member' level='[item_id]' member='&quot;HOBBIES_1_099&quot;' user:ui-action-filter='[Action7_45650CFD90734E0AB64C37D760B5D638]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.171f5lh003wvqd1c72rn40god19i].[sum:sell_price:qk]' included-values='in-range' />
+          <slices>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[sum:sell_price:qk]</column>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[Action (Item Id)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.171f5lh003wvqd1c72rn40god19i].[none:cat_id:nk]</rows>
+        <cols>[federated.171f5lh003wvqd1c72rn40god19i].[avg:sell_price:qk]</cols>
+      </table>
+      <simple-id uuid='{EE317BF6-3544-451E-8CAD-A05F2715AB9E}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Top 10 Products</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='master_dataset' name='federated.171f5lh003wvqd1c72rn40god19i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.171f5lh003wvqd1c72rn40god19i'>
+            <column caption='Item Id' datatype='string' name='[item_id]' role='dimension' type='nominal' />
+            <column-instance column='[item_id]' derivation='None' name='[none:item_id:nk]' pivot='key' type='nominal' />
+            <column caption='Sell Price' datatype='real' name='[sell_price]' role='measure' type='quantitative' />
+            <column-instance column='[sell_price]' derivation='Sum' name='[sum:sell_price:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.171f5lh003wvqd1c72rn40god19i].[none:item_id:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([sell_price])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:item_id:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.171f5lh003wvqd1c72rn40god19i].[none:item_id:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.171f5lh003wvqd1c72rn40god19i].[none:item_id:nk]</rows>
+        <cols>[federated.171f5lh003wvqd1c72rn40god19i].[sum:sell_price:qk]</cols>
+      </table>
+      <simple-id uuid='{4B0D3476-8F33-4A20-BE49-4F26EA960E8F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Business Insights Dashboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>      &lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='dash-text'>
+          <format attr='text-align' value='center' />
+        </style-rule>
+      </style>
+      <size maxheight='960' maxwidth='1650' minheight='760' minwidth='1450' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98084' id='15' param='vert' type-v2='layout-flow' w='99024' x='488' y='958'>
+            <zone fixed-size='74' h='9820' id='16' is-fixed='true' type-v2='title' w='99024' x='488' y='958'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='88264' id='4' type-v2='layout-basic' w='99024' x='488' y='10778'>
+              <zone h='50709' id='7' param='horz' type-v2='layout-flow' w='98048' x='976' y='11736'>
+                <zone h='50709' id='5' type-v2='layout-basic' w='98048' x='976' y='11736'>
+                  <zone h='50709' id='3' name='Sheet 4' w='98048' x='976' y='11736'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='35639' id='10' name='Sheet 6' w='49037' x='49987' y='62445'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='35639' id='17' name='Sheet 5' w='49011' x='976' y='62445'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run>      &lt;Sheet Name&gt;</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98084' id='20' param='vert' type-v2='layout-flow' w='99024' x='488' y='958'>
+                <zone fixed-size='74' h='9820' id='16' type-v2='title' w='99024' x='488' y='958'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='50709' id='3' is-fixed='true' name='Sheet 4' w='98048' x='976' y='11736'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35639' id='17' is-fixed='true' name='Sheet 5' w='49011' x='976' y='62445'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35639' id='10' is-fixed='true' name='Sheet 6' w='49037' x='49987' y='62445'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{65A75895-023B-4AB0-9A1C-FEF89E53024C}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Retail Demand Forecasting Dashboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Æ                                                  </run>
+            <run>      &lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='860' maxwidth='1620' minheight='760' minwidth='1420' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98122' id='20' param='vert' type-v2='layout-flow' w='99012' x='494' y='939'>
+            <zone fixed-size='144' h='17840' id='21' is-fixed='true' type-v2='title' w='99012' x='494' y='939'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='80282' id='18' param='vert' type-v2='layout-flow' w='99012' x='494' y='18779'>
+              <zone h='80282' id='14' param='horz' type-v2='layout-flow' w='99012' x='494' y='18779'>
+                <zone h='80282' id='9' param='vert' type-v2='layout-flow' w='99012' x='494' y='18779'>
+                  <zone h='80282' id='7' type-v2='layout-basic' w='99012' x='494' y='18779'>
+                    <zone h='47888' id='3' name='Sheet 1' w='99012' x='494' y='18779'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='32394' id='5' name='Sheet 2' w='49493' x='494' y='66667'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='32394' id='6' name='Sheet 3' w='49519' x='49987' y='66667'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true'>Æ                                                  </run>
+                <run>      &lt;Sheet Name&gt;</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98122' id='22' param='vert' type-v2='layout-flow' w='99012' x='494' y='939'>
+                <zone fixed-size='144' h='17840' id='21' type-v2='title' w='99012' x='494' y='939'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47888' id='3' is-fixed='true' name='Sheet 1' w='99012' x='494' y='18779'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='271' h='32394' id='5' is-fixed='true' name='Sheet 2' w='49493' x='494' y='66667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='271' h='32394' id='6' is-fixed='true' name='Sheet 3' w='49519' x='49987' y='66667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{8242D08C-429E-4E2A-8A15-04AAB509263B}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.171f5lh003wvqd1c72rn40god19i].[none:store_id:nk]' type='filter' />
+            <card param='[federated.171f5lh003wvqd1c72rn40god19i].[none:state_id:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C0FAB0AD-957F-4C24-A847-53338E6FD802}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.171f5lh003wvqd1c72rn40god19i].[yr:date:ok]' type='filter' />
+            <card param='[federated.171f5lh003wvqd1c72rn40god19i].[none:state_id:nk]' type='filter' />
+            <card param='[federated.171f5lh003wvqd1c72rn40god19i].[none:store_id:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5DBC281D-18DA-412E-8849-9BE49095E3B4}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.171f5lh003wvqd1c72rn40god19i].[none:store_id:nk]' type='filter' />
+            <card param='[federated.171f5lh003wvqd1c72rn40god19i].[none:state_id:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7BF6A8FA-7CF0-457D-B647-BFB106D69F5C}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.171f5lh003wvqd1c72rn40god19i].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2AF04305-DE5B-4872-95F6-845E5620B9BD}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8EA7C766-667D-412B-B6D4-9B8081354A69}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E0C91522-DD50-4CA3-951A-A25D5DB53DB9}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Retail Demand Forecasting Dashboard'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2' />
+        <viewpoint name='Sheet 3' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{02FD3135-9F96-4D1E-B2F9-E862FCC4A9E2}' />
+    </window>
+    <window class='dashboard' name='Business Insights Dashboard'>
+      <viewpoints>
+        <viewpoint name='Sheet 4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 5' />
+        <viewpoint name='Sheet 6' />
+      </viewpoints>
+      <active id='17' />
+      <simple-id uuid='{76606C88-97D8-4C0D-A270-EA4DD4360290}' />
+    </window>
+  </windows>
+</workbook>
