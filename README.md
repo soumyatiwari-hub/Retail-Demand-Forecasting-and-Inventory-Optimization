@@ -1,5 +1,8 @@
 # 🛒 Retail Demand Forecasting & Inventory Optimization
 
+An end-to-end Data Analytics and Machine Learning project using the Walmart M5 Forecasting dataset. This project predicts future retail demand, evaluates forecasting models, and presents business insights through interactive Tableau dashboards.
+# 🛒 Retail Demand Forecasting & Inventory Optimization
+
 ## 📌 Project Overview
 
 This project focuses on forecasting retail product demand using the Walmart M5 Forecasting dataset. It combines time-series forecasting and machine learning techniques to predict future sales and help optimize inventory management.
@@ -198,3 +201,54 @@ This project includes two Tableau dashboards:
 ### Tableau Public
 
 🔗 [View Interactive Dashboard](https://public.tableau.com/app/profile/soumya.tiwari7361/viz/Retail_Demand_Dashboard2/BusinessInsightsDashboard#2)
+
+📈 Key Business Insights
+Sales fluctuate over time, highlighting seasonal demand patterns.
+Certain products consistently contribute the highest sales volumes.
+Average selling prices vary across product categories.
+Monthly sales trends can help businesses forecast demand and plan inventory more effectively.
+## 🚀 Project Highlights
+
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Time Series Forecasting using Prophet
+- LightGBM Model
+- Model Evaluation (MAE, RMSE, MAPE)
+- Interactive Tableau Dashboards
+- Business Insights
+## 📊 Dashboard Preview
+
+### Retail Demand Forecasting Dashboard
+
+![Dashboard 1]
+![alt text](dashboard1-2.png)
+
+### Business Insights Dashboard
+
+![Dashboard 2]
+![alt text](dashboard2.png)
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Prophet
+- LightGBM
+- Scikit-learn
+- Tableau
+- Git & GitHub
+## 🔮 Future Enhancements
+
+- Deploy the forecasting model as a web application.
+- Integrate real-time sales data.
+- Add automated inventory recommendations.
+- Explore deep learning models such as LSTM for forecasting.
+## Results
+
+- Successfully forecasted retail demand.
+- Compared Prophet and LightGBM models.
+- Built two Tableau dashboards.
+- Generated business insights for inventory planning.
